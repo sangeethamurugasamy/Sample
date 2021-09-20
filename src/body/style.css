@@ -1,0 +1,15 @@
+#div1{
+    background-color: whitesmoke;
+    border: double 3px black;
+
+}
+#hone{
+    color: maroon;
+    box-sizing: content-box;
+    text-align: center;
+}
+#para{
+    color: purple;
+    border: hidden 2px black;
+    
+}
