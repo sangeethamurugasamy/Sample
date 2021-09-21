@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import book1Desc from './book1Desc';
-import book2Desc from './book2Desc';
-import book3Desc from './book3Desc';
+// import book1Desc from './book1Desc';
+// import book2Desc from './book2Desc';
+// import book3Desc from './book3Desc';
 
 
 
@@ -62,4 +62,34 @@ export class Book extends React.Component{
         </div>
         </div>
     }
+}
+
+const book1Desc = () => {
+    return ( 
+        <div>
+            <p>this is physical science book</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
+
+const book2Desc = () => {
+    return ( <div>
+        <p>this is physical science book</p> 
+        <button id = "button" onClick={message}>Buy</button>   
+    </div>
+    );
+}
+
+const book3Desc = () => {
+    return (
+        <div>
+            <p>this is physical science book</p> 
+            <button id = "button" onClick={message}>Buy</button>  
+        </div>
+      );
+}
+
+function message(){
+    alert("Thank You For Purchasing!!!")
 }

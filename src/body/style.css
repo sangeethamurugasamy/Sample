@@ -1,15 +1,28 @@
-#div1{
+#div1:hover{
     background-color: whitesmoke;
-    border: double 3px black;
-
+    border: solid 3px blue;
 }
 #hone{
     color: maroon;
-    box-sizing: content-box;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #para{
-    color: purple;
+    color: black;
     border: hidden 2px black;
-    
+}
+#para:hover{
+    color:slateblue;
+    border: hidden 2px black;
+    font-weight: 700;
+    font-family: cursive;
+}
+#button{
+    background-color: limegreen;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 9px 0 #000;
+    width: 22%;
+    border: solid 2px black;
+    font-family: fantasy;
 }

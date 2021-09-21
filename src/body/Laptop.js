@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import lap1Desc from './lap1Desc';
-import lap2Desc from './lap2Desc';
-import lap3Desc from './lap3Desc';
+// import lap1Desc from './lap1Desc';
+// import lap2Desc from './lap2Desc';
+// import lap3Desc from './lap3Desc';
 
 export class Laptop extends React.Component{
     render(){
@@ -60,4 +60,35 @@ export class Laptop extends React.Component{
         </div>
         </div>
     }
+}
+
+const lap1Desc = () => {
+    return ( 
+        <div>
+            <p>this is HP Laptop</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
+
+const lap2Desc = () => {
+    return ( 
+        <div>
+            <p>this is DELL Laptop</p> 
+            <button id = "button" onClick={message}>Buy</button> 
+        </div>
+     );
+}
+
+const lap3Desc = () => {
+    return ( 
+        <div>
+            <p>this is Apple MacBook Pro</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
+
+function message(){
+    alert("Thank You For Purchasing!!!")
 }

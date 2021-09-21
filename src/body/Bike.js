@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-import bike1Desc from './bike1Desc';
-import bike2Desc from './bike2Desc';
-import bike3Desc from './bike3Desc';
+//import bike1Desc from './bike1Desc';
+//import bike2Desc from './bike2Desc';
+//import bike3Desc from './bike3Desc';
 
 export class Bike extends React.Component{
     render(){
@@ -13,8 +13,8 @@ export class Bike extends React.Component{
         <h3 id="hone">Bikes</h3>
 
         <div className="row" id="div1">
-           
-            <p className="col-4">
+            
+            <p  className="col-4">
             <img src={require("../images/bike_image1.jpg").default} height={200} width={200} />
             <p id="para">
                 RS.90,000/-
@@ -63,4 +63,33 @@ export class Bike extends React.Component{
     }
 }
 
+const bike1Desc = () => {
+    return ( 
+        <div>
+            <p>This is Duke bike</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
 
+const bike2Desc = () => {
+    return ( 
+        <div>
+            <p>This is Pleasure Plus Platinum</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
+
+const bike3Desc = () => {
+    return ( 
+        <div>
+            <p>This is Pulsar Bike</p> 
+            <button id = "button" onClick={message}>Buy</button>   
+        </div>
+     );
+}
+
+function message(){
+    alert("Thank You For Purchasing!!!")
+}
