@@ -23,7 +23,7 @@ export class Bike extends React.Component{
                 <br/>
                 <Router>
                 <Link to="/Duke250">To know More</Link>
-                <Route path="/Duke250" component={bike1Desc}/>
+                <Route exact path="/Duke250" component={bike1Desc}/>
                 </Router>
 
             </p>
@@ -38,7 +38,7 @@ export class Bike extends React.Component{
                 <br/>
                 <Router>
                 <Link to="/PleasurePlus">To know More</Link>
-                <Route path="/PleasurePlus" component={bike2Desc}/>
+                <Route exact path="/PleasurePlus" component={bike2Desc}/>
                 </Router>
             </p>
             </p>
@@ -52,7 +52,7 @@ export class Bike extends React.Component{
                 <br/>
                 <Router>
                 <Link to="/Pulsar">To know More</Link>
-                <Route path="/Pulsar" component={bike3Desc}/>
+                <Route exact path="/Pulsar" component={bike3Desc}/>
                 </Router>
             </p>
             </p>
@@ -66,8 +66,8 @@ export class Bike extends React.Component{
 const bike1Desc = () => {
     return ( 
         <div>
-            <p>This is Duke bike</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>The 250 Duke is KTM's quarter-litre street bike which sits in between its 200 Duke and 390 Duke in terms of price, displacement, features and components. The motorcycle received an upgrade in 2020 in the form of an LED headlight that is similar to the unit on the 390 Duke.</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }
@@ -75,8 +75,9 @@ const bike1Desc = () => {
 const bike2Desc = () => {
     return ( 
         <div>
-            <p>This is Pleasure Plus Platinum</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>Hero Pleasure Plus Platinum Engine and Transmission: It is powered by 110.9 cc engine and puts a power of 8.1 PS. Torque remains at 8.7 Nm.
+Max Torque: 8.7 Nm @ 5500 rpm</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }
@@ -84,8 +85,8 @@ const bike2Desc = () => {
 const bike3Desc = () => {
     return ( 
         <div>
-            <p>This is Pulsar Bike</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>A pulsar is a highly magnetized rotating compact star (usually neutron stars but also white dwarfs) that emits beams of electromagnetic radiation out of its magnetic poles. The periods of pulsars make them very useful tools for astronomers.</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }

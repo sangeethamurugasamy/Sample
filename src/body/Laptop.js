@@ -65,8 +65,8 @@ export class Laptop extends React.Component{
 const lap1Desc = () => {
     return ( 
         <div>
-            <p>this is HP Laptop</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>HP Pavilion x360 14-dh1011tu 8GB02PA#ACJ Core i5 10th Gen Windows 10 Home Laptop (8 GB RAM, 1 TB HDD + 256 GB SSD, Intel UHD Graphics, 35.56cm, Natural Silver)</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }
@@ -74,8 +74,10 @@ const lap1Desc = () => {
 const lap2Desc = () => {
     return ( 
         <div>
-            <p>this is DELL Laptop</p> 
-            <button id = "button" onClick={message}>Buy</button> 
+            <p>10th Generation Intel® Core™ i3-1005G1 Processor (4MB Cache, up to 3.4 GHz)laptop Windows 10 Home Single Language, English Intel® UHD Graphics with shared graphics memory 8GB, 8GBx1, DDR4, 2666MHz, 1TB 5400 rpm 2.5" SATA Hard Drive, Dune color cover for non-touch LCD
+
+</p> 
+            <button id = "button" onClick={message}>Add To Cart</button> 
         </div>
      );
 }
@@ -83,8 +85,8 @@ const lap2Desc = () => {
 const lap3Desc = () => {
     return ( 
         <div>
-            <p>this is Apple MacBook Pro</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.Battery Life (up to hours): 10. Operating system: macOS</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }

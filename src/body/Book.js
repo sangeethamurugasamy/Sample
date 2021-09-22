@@ -67,16 +67,16 @@ export class Book extends React.Component{
 const book1Desc = () => {
     return ( 
         <div>
-            <p>this is physical science book</p> 
-            <button id = "button" onClick={message}>Buy</button>   
+            <p>Physical science is the study of the inorganic world. That is, it does not study living things. (Those are studied in biological, or life, science.) The four main branches of physical science are astronomy, physics, chemistry, and the Earth sciences, which include meteorology and geology.</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
         </div>
      );
 }
 
 const book2Desc = () => {
     return ( <div>
-        <p>this is physical science book</p> 
-        <button id = "button" onClick={message}>Buy</button>   
+        <p>A dictionary is a reference book about words and as such it describes the functioning of individual words (sometimes called lexical items). It does so by listing these words in alphabetical order in the form of headwords, the words listed as entries in the dictionary.</p> 
+        <button id = "button" onClick={message}>Add To Cart</button>   
     </div>
     );
 }
@@ -84,8 +84,8 @@ const book2Desc = () => {
 const book3Desc = () => {
     return (
         <div>
-            <p>this is physical science book</p> 
-            <button id = "button" onClick={message}>Buy</button>  
+            <p>In The Living Planet, based on his BBC television series, David Attenbourough's searching eye, unfailing curiousty and infectious enthusiasm, explain and illuminate the intricate lives of these colonies - from the lonely heights of the Himalayas to the wild creatures which have established themselves in the most recent of environments, the city.</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>  
         </div>
       );
 }
