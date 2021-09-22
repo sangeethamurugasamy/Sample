@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Sample/static/css/main.0edd4f06.chunk.css",
+    "main.js": "/Sample/static/js/main.f8eba3b5.chunk.js",
+    "main.js.map": "/Sample/static/js/main.f8eba3b5.chunk.js.map",
+    "runtime-main.js": "/Sample/static/js/runtime-main.8df0340d.js",
+    "runtime-main.js.map": "/Sample/static/js/runtime-main.8df0340d.js.map",
+    "static/css/2.f2512455.chunk.css": "/Sample/static/css/2.f2512455.chunk.css",
+    "static/js/2.8c460fbd.chunk.js": "/Sample/static/js/2.8c460fbd.chunk.js",
+    "static/js/2.8c460fbd.chunk.js.map": "/Sample/static/js/2.8c460fbd.chunk.js.map",
+    "static/js/3.69c5ac89.chunk.js": "/Sample/static/js/3.69c5ac89.chunk.js",
+    "static/js/3.69c5ac89.chunk.js.map": "/Sample/static/js/3.69c5ac89.chunk.js.map",
+    "index.html": "/Sample/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/Sample/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.0edd4f06.chunk.css.map": "/Sample/static/css/main.0edd4f06.chunk.css.map",
+    "static/js/2.8c460fbd.chunk.js.LICENSE.txt": "/Sample/static/js/2.8c460fbd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Sample/static/media/logo.6ce24c58.svg",
+    "static/media/olxLogo.4eb74dca.png": "/Sample/static/media/olxLogo.4eb74dca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8df0340d.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.8c460fbd.chunk.js",
+    "static/css/main.0edd4f06.chunk.css",
+    "static/js/main.f8eba3b5.chunk.js"
+  ]
+}
