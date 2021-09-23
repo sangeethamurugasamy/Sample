@@ -24,7 +24,7 @@ export class Book extends React.Component{
                 Physical Science 
                 <br/>
             <Router>
-                <Link to="/physical science">To know More</Link>
+                <Link to="/physical science" className="link">To know More</Link>
                 <Route path="/physical science" component={book1Desc}/>
             </Router>
             </p>
@@ -38,7 +38,7 @@ export class Book extends React.Component{
                 Oxford Dictionary 
                 <br/>
                 <Router>
-                <Link to="/OxfordDictionary">To know More</Link>
+                <Link to="/OxfordDictionary" className="link">To know More</Link>
                 <Route path="/OxfordDictionary" component={book2Desc}/>
                 </Router> 
             </p>
@@ -52,7 +52,7 @@ export class Book extends React.Component{
                 Living Planet
                 <br/>
                 <Router>
-                <Link to="/LivingPlanet">To know More</Link>
+                <Link to="/LivingPlanet" className="link">To know More</Link>
                 <Route path="/LivingPlanet" component={book3Desc}/>
                 </Router> 
             </p>

@@ -22,7 +22,7 @@ export class Laptop extends React.Component{
                 HP Pavilion x360
                 <br/>
             <Router>
-                <Link to="/HPPavilion">To know More</Link>
+                <Link to="/HPPavilion" className="link">To know More</Link>
                 <Route path="/HPPavilion" component={lap1Desc}/>
             </Router>
             </p>
@@ -36,7 +36,7 @@ export class Laptop extends React.Component{
                 Dell Vostro 15 350
                 <br/>
             <Router>
-                <Link to="/Dell">To know More</Link>
+                <Link to="/Dell" className="link">To know More</Link>
                 <Route path="/Dell" component={lap2Desc}/>
             </Router>
             </p>
@@ -50,7 +50,7 @@ export class Laptop extends React.Component{
                 Apple MacBook Pro
                 <br/>
             <Router>
-                <Link to="/Apple">To know More</Link>
+                <Link to="/Apple" className="link">To know More</Link>
                 <Route path="/Apple" component={lap3Desc}/>
             </Router>
             </p>

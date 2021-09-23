@@ -22,7 +22,7 @@ export class Bike extends React.Component{
                 Duke 250
                 <br/>
                 <Router>
-                <Link to="/Duke250">To know More</Link>
+                <Link to="/Duke250" className="link">To know More</Link>
                 <Route exact path="/Duke250" component={bike1Desc}/>
                 </Router>
 
@@ -37,7 +37,7 @@ export class Bike extends React.Component{
                 Hero Pleasure Plus Platinum
                 <br/>
                 <Router>
-                <Link to="/PleasurePlus">To know More</Link>
+                <Link to="/PleasurePlus" className="link">To know More</Link>
                 <Route exact path="/PleasurePlus" component={bike2Desc}/>
                 </Router>
             </p>
@@ -51,7 +51,7 @@ export class Bike extends React.Component{
                 Pulsar
                 <br/>
                 <Router>
-                <Link to="/Pulsar">To know More</Link>
+                <Link to="/Pulsar" className="link">To know More</Link>
                 <Route exact path="/Pulsar" component={bike3Desc}/>
                 </Router>
             </p>
