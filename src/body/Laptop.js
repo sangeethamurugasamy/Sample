@@ -17,13 +17,13 @@ export class Laptop extends React.Component{
             <p className="col-4">
             <img src={require("../images/lap_image1.jfif").default} height={200} width={200} />
             <p id="para">
-                RS.64,000/-
-                <br></br>
-                HP Pavilion x360
-                <br/>
+            RS.64,000/-
+            <br></br>
+            HP Pavilion x360
+            <br/>
             <Router>
-                <Link to="/HPPavilion" className="link">To know More</Link>
-                <Route path="/HPPavilion" component={lap1Desc}/>
+            <Link to="/HPPavilion" className="link">To know More</Link>
+            <Route path="/HPPavilion" component={lap1Desc}/>
             </Router>
             </p>
             </p>
@@ -31,13 +31,13 @@ export class Laptop extends React.Component{
             <p className="col-4">
             <img src={require("../images/lap_image2.jfif").default} height={200} width={200}/>
             <p id="para">
-                RS.35,500/-
-                <br></br>
-                Dell Vostro 15 350
-                <br/>
+            RS.35,500/-
+            <br></br>
+            Dell Vostro 15 350
+            <br/>
             <Router>
-                <Link to="/Dell" className="link">To know More</Link>
-                <Route path="/Dell" component={lap2Desc}/>
+            <Link to="/Dell" className="link">To know More</Link>
+            <Route path="/Dell" component={lap2Desc}/>
             </Router>
             </p>
             </p>
@@ -45,19 +45,121 @@ export class Laptop extends React.Component{
             <p className="col-4">
             <img src={require("../images/lap_image3.jfif").default} height={200} width={200}/>
             <p id="para">
-                RS.95,000/-
-                <br></br>
-                Apple MacBook Pro
-                <br/>
+            RS.95,000/-
+            <br></br>
+            Apple MacBook Pro
+            <br/>
             <Router>
-                <Link to="/Apple" className="link">To know More</Link>
-                <Route path="/Apple" component={lap3Desc}/>
+            <Link to="/Apple" className="link">To know More</Link>
+            <Route path="/Apple" component={lap3Desc}/>
+            </Router>
+            </p>
+            </p>
+            </div>
+
+            </div>
+            <br/>
+
+        <div className="container">
+            <div className="row" id="div1">
+           
+            <p className="col-4">
+            <img src={require("../images/lap_image4.webp").default} height={200} width={200} />
+            <p id="para">
+            RS.43,000/-
+            <br></br>
+            Lenovo IdeaPad
+            <br/>
+            <Router>
+            <Link to="/LenovoIdeapad" className="link">To know More</Link>
+            <Route path="/LenovoIdeapad" component={lap4Desc}/>
+            </Router>
+            </p>
+            </p>
+
+            <p className="col-4">
+            <img src={require("../images/lap_image5.jfif").default} height={200} width={200}/>
+            <p id="para">
+            RS.18,500/-
+            <br></br>
+            Acer Aspire
+            <br/>
+            <Router>
+            <Link to="/acerAspire" className="link">To know More</Link>
+            <Route path="/acerAspire" component={lap5Desc}/>
+            </Router>
+            </p>
+            </p>
+                        
+            <p className="col-4">
+            <img src={require("../images/lap_image6.jfif").default} height={200} width={200}/>
+            <p id="para">
+            RS.25,000/-
+            <br></br>
+            HP ChromeBook
+            <br/>
+            <Router>
+            <Link to="/HPChromeBook" className="link">To know More</Link>
+            <Route path="/HPChromeBook" component={lap6Desc}/>
             </Router>
             </p>
             </p>
         </div>
 
         </div>
+
+        <br/>
+
+        <div className="container">
+            <div className="row" id="div1">
+           
+            <p className="col-4">
+            <img src={require("../images/lap_image7.webp").default} height={200} width={200} />
+            <p id="para">
+            RS.28,499/-
+            <br></br>
+            Dell Inspiron
+            <br/>
+            <Router>
+            <Link to="/DellInspiron" className="link">To know More</Link>
+            <Route path="/DellInspiron" component={lap7Desc}/>
+            </Router>
+            </p>
+            </p>
+
+            <p className="col-4">
+            <img src={require("../images/lap_image8.webp").default} height={200} width={200}/>
+            <p id="para">
+            RS.15,500/-
+            <br></br>
+            HP Mini Laptop
+            <br/>
+            <Router>
+            <Link to="/HPMini" className="link">To know More</Link>
+            <Route path="/HPMini" component={lap8Desc}/>
+            </Router>
+            </p>
+            </p>
+                        
+            <p className="col-4">
+            <img src={require("../images/lap_image9.webp").default} height={200} width={200}/>
+            <p id="para">
+            RS.25,000/-
+            <br></br>
+            Dell Inspiron 5567
+            <br/>
+            <Router>
+            <Link to="/DellIns5567" className="link">To know More</Link>
+            <Route path="/DellIns5567" component={lap9Desc}/>
+            </Router>
+            </p>
+            </p>
+        </div>
+
+        </div>
+
+        <br/>
+
         </div>
     }
 }
@@ -90,6 +192,62 @@ const lap3Desc = () => {
         </div>
      );
 }
+
+const lap4Desc = () => {
+    return ( 
+        <div>
+            <p>Lenovo Ideapad 330 Intel Core i5 8th Gen 15.6-inch Laptop (8GB/2TB HDD/DOS/2GB Graphics/Platinum Grey/ 2.2kg), 81DE01JWIN</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+const lap5Desc = () => {
+    return ( 
+        <div>
+            <p>Acer Aspire 3 A315-23 15.6" (39.62cms) Laptop (AMD Athlon Silver 3050U dual-core/4GB/1TB HDD/Window 10, Home, 64Bit/AMD RadeonTM Graphics), Silver</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+const lap6Desc = () => {
+    return ( 
+        <div>
+            <p>HP Chromebook 14-inch (35.56 cms) Thin & Light Touchscreen Laptop (Celeron N4020/4GB/64GB eMMC + 256GB Expandable Storage/Chrome OS/1.46 kgs Light/ Mineral Silver), 14a-na0003TU</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+const lap7Desc = () => {
+    return ( 
+        <div>
+            <p> Dell Inspiron - Windows OS - 14 in - 500 GB drive - Hard Disk Drive - 4 GB RAM - Touchscreen - 1.6 GHz CPU - Intel CPU</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+const lap8Desc = () => {
+    return ( 
+        <div>
+            <p>HP Mini Laptop - Windows OS · 12.1 in · 160 GB drive · 8 GB RAM · 2.1 GHz CPU · Intel CPU · Netbook · Intel GPU · Dual Core</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+const lap9Desc = () => {
+    return ( 
+        <div>
+            <p>New Dell Inspiron 5567 · Windows OS · 15.6 in · 1 TB drive · Solid State Drive · Hard Disk Drive · 12 GB RAM · Touchscreen · Intel CPU</p> 
+            <button id = "button" onClick={message}>Add To Cart</button>   
+        </div>
+     );
+}
+
+
 
 function message(){
     alert("Thank You For Purchasing!!!")
