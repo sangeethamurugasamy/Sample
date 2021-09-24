@@ -12,7 +12,7 @@ export class Home extends React.Component{
         <div className="container">
         <div className="row" id="div1">
             
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/book_image1.jfif").default} height={200} width={200} />
         <p id="para">
         RS.400/-
@@ -26,7 +26,7 @@ export class Home extends React.Component{
         </p>
         </p>
 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/lap_image1.jfif").default} height={200} width={200} />
         <p id="para">
         RS.64,000/-
@@ -40,7 +40,7 @@ export class Home extends React.Component{
         </p>
         </p>
 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/bike_image2.webp").default} height={200} width={200}/>
         <p id="para">
         RS.84,000/-
@@ -62,7 +62,7 @@ export class Home extends React.Component{
         <div className="container">
         <div className="row" id="div1">
         
-        <p  className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/bike_image1.jpg").default} height={200} width={200} />
         <p id="para">
         RS.90,000/-
@@ -76,7 +76,7 @@ export class Home extends React.Component{
         </p>
         </p>
 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/book_image2.jfif").default} height={200} width={200} />
         <p id="para">
         RS.500/-
@@ -90,7 +90,7 @@ export class Home extends React.Component{
         </p>
         </p>
                 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/lap_image2.jfif").default} height={200} width={200}/>
         <p id="para">
         RS.35,500/-
@@ -112,7 +112,7 @@ export class Home extends React.Component{
         <div className="container">
         <div className="row" id="div1">
 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/lap_image3.jfif").default} height={200} width={200}/>
         <p id="para">
         RS.95,000/-
@@ -127,7 +127,7 @@ export class Home extends React.Component{
         </p>
 
             
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/book_image3.jfif").default} height={200} width={200} />
         <p id="para">
         RS.350/-
@@ -141,7 +141,7 @@ export class Home extends React.Component{
         </p>
         </p>
 
-        <p className="col-4">
+        <p className="col-4" id="product">
         <img src={require("../images/bike_image3.jfif").default} height={200} width={200}/>
         <p id="para">
         RS.70,000/-

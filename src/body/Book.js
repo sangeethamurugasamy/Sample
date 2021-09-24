@@ -17,7 +17,7 @@ export class Book extends React.Component{
 
         <div className="row" id="div1">
            
-            <p className="col-4">
+        <p className="col-4" id="product">
             <img src={require("../images/book_image1.jfif").default} height={200} width={200} />
             <p id="para">
             RS.400/-
@@ -31,7 +31,7 @@ export class Book extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image2.jfif").default} height={200} width={200} />
             <p id="para">
             RS.500/-
@@ -45,7 +45,7 @@ export class Book extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image3.jfif").default} height={200} width={200} />
             <p id="para">
             RS.350/-
@@ -67,7 +67,7 @@ export class Book extends React.Component{
 
         <div className="row" id="div1">
            
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image4.jfif").default} height={200} width={200} />
             <p id="para">
             RS.600/-
@@ -81,7 +81,7 @@ export class Book extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image5.jfif").default} height={200} width={200} />
             <p id="para">
             RS.399/-
@@ -95,7 +95,7 @@ export class Book extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image6.jfif").default} height={200} width={200} />
             <p id="para">
             RS.249/-
@@ -117,7 +117,7 @@ export class Book extends React.Component{
 
         <div className="row" id="div1">
            
-            <p className="col-4">
+        <p className="col-4" id="product">
             <img src={require("../images/book_image7.jfif").default} height={200} width={200} />
             <p id="para">
             RS.200/-
@@ -131,7 +131,7 @@ export class Book extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image8.jfif").default} height={200} width={200} />
             <p id="para">
             RS.179/-
@@ -145,7 +145,7 @@ export class Book extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/book_image9.jfif").default} height={200} width={200} />
             <p id="para">
             RS.150/-

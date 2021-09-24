@@ -14,7 +14,7 @@ export class Laptop extends React.Component{
 
         <div className="row" id="div1">
            
-            <p className="col-4">
+        <p className="col-4" id="product">
             <img src={require("../images/lap_image1.jfif").default} height={200} width={200} />
             <p id="para">
             RS.64,000/-
@@ -28,7 +28,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image2.jfif").default} height={200} width={200}/>
             <p id="para">
             RS.35,500/-
@@ -42,7 +42,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image3.jfif").default} height={200} width={200}/>
             <p id="para">
             RS.95,000/-
@@ -63,7 +63,7 @@ export class Laptop extends React.Component{
         <div className="container">
             <div className="row" id="div1">
            
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image4.webp").default} height={200} width={200} />
             <p id="para">
             RS.43,000/-
@@ -77,7 +77,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image5.jfif").default} height={200} width={200}/>
             <p id="para">
             RS.18,500/-
@@ -91,7 +91,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image6.jfif").default} height={200} width={200}/>
             <p id="para">
             RS.25,000/-
@@ -113,7 +113,7 @@ export class Laptop extends React.Component{
         <div className="container">
             <div className="row" id="div1">
            
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image7.webp").default} height={200} width={200} />
             <p id="para">
             RS.28,499/-
@@ -127,7 +127,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
 
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image8.webp").default} height={200} width={200}/>
             <p id="para">
             RS.15,500/-
@@ -141,7 +141,7 @@ export class Laptop extends React.Component{
             </p>
             </p>
                         
-            <p className="col-4">
+            <p className="col-4" id="product">
             <img src={require("../images/lap_image9.webp").default} height={200} width={200}/>
             <p id="para">
             RS.25,000/-
