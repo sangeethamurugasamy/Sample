@@ -1,6 +1,6 @@
 #div1:hover{
     background-color: whitesmoke;
-    border: solid 3px blue;
+    border: solid 3px white;
     border-radius: 25px;
 }
 #hone{
@@ -29,6 +29,7 @@
     width: 32%;
     border: solid 2px black;
     font-family: fantasy;
+    
 }
 .link{
     color: deeppink;

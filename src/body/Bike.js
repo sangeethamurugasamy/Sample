@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, useHistory } from 'react-router-dom';
 //import bike1Desc from './bike1Desc';
 //import bike2Desc from './bike2Desc';
 //import bike3Desc from './bike3Desc';
@@ -22,7 +22,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/Duke250" className="link">To know More</Link>
-        <Route exact path="/Duke250" component={bike1Desc}/>
+        <Route exact path="/Duke250" component={Bike1Desc}/>
         </Router>
         </p>
         </p>
@@ -36,7 +36,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/PleasurePlus" className="link">To know More</Link>
-        <Route exact path="/PleasurePlus" component={bike2Desc}/>
+        <Route exact path="/PleasurePlus" component={Bike2Desc}/>
         </Router>
         </p>
         </p>
@@ -50,7 +50,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/Pulsar" className="link">To know More</Link>
-        <Route exact path="/Pulsar" component={bike3Desc}/>
+        <Route exact path="/Pulsar" component={Bike3Desc}/>
         </Router>
         </p>
         </p>
@@ -72,7 +72,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/TVSApache" className="link">To know More</Link>
-        <Route exact path="/TVSApache" component={bike4Desc}/>
+        <Route exact path="/TVSApache" component={Bike4Desc}/>
         </Router>
         </p>
         </p>
@@ -86,7 +86,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/SuzukiAccess" className="link">To know More</Link>
-        <Route exact path="/SuzukiAccess" component={bike5Desc}/>
+        <Route exact path="/SuzukiAccess" component={Bike5Desc}/>
         </Router>
         </p>
         </p>
@@ -100,7 +100,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/rx100" className="link">To know More</Link>
-        <Route exact path="/rx100" component={bike6Desc}/>
+        <Route exact path="/rx100" component={Bike6Desc}/>
         </Router>
         </p>
         </p>
@@ -122,7 +122,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/fz25" className="link">To know More</Link>
-        <Route exact path="/fz25" component={bike7Desc}/>
+        <Route exact path="/fz25" component={Bike7Desc}/>
         </Router>
         </p>
         </p>
@@ -136,7 +136,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/TVSJupiter" className="link">To know More</Link>
-        <Route exact path="/TVSJupiter" component={bike8Desc}/>
+        <Route exact path="/TVSJupiter" component={Bike8Desc}/>
         </Router>
         </p>
         </p>
@@ -150,7 +150,7 @@ export class Bike extends React.Component{
         <br/>
         <Router>
         <Link to="/hondaDio" className="link">To know More</Link>
-        <Route exact path="/hondaDio" component={bike9Desc}/>
+        <Route exact path="/hondaDio" component={Bike9Desc}/>
         </Router>
         </p>
         </p>
@@ -164,85 +164,103 @@ export class Bike extends React.Component{
     }
 }
 
-const bike1Desc = () => {
+const Bike1Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>The 250 Duke is KTM's quarter-litre street bike which sits in between its 200 Duke and 390 Duke in terms of price, displacement, features and components. The motorcycle received an upgrade in 2020 in the form of an LED headlight that is similar to the unit on the 390 Duke.</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike2Desc = () => {
+const Bike2Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Hero Pleasure Plus Platinum Engine and Transmission: It is powered by 110.9 cc engine and puts a power of 8.1 PS. Torque remains at 8.7 Nm.
 Max Torque: 8.7 Nm @ 5500 rpm</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike3Desc = () => {
+const Bike3Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>A pulsar is a highly magnetized rotating compact star (usually neutron stars but also white dwarfs) that emits beams of electromagnetic radiation out of its magnetic poles. The periods of pulsars make them very useful tools for astronomers.</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike4Desc = () => {
+const Bike4Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Engine TypeSI, 4- stroke, Air- CooledNo. of Cylinders1Max Power15.53 PS @ 8400 rpmMax Torque13.9 Nm @ 7000 rpmFront BrakeDiscRear BrakeDiscFuel Capacity12 LBody TypeSports Naked Bikes
             </p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike5Desc = () => {
+const Bike5Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Suzuki Access 125 is powered by 124 cc engine. This Access 125 engine generates a power of 8.7 PS @ 6750 rpm and a torque of 10 Nm @ 5500 rpm. The claimed mileage of Access 125 is 57.2 2 kmpl. Suzuki Access 125 gets Drum brakes in the front and rear. The kerb weight of Access 125 is 103 Kg.</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike6Desc = () => {
+const Bike6Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Engine	98.2 cc (5.99 cu in) air-cooled, reed valve two-stroke single.Top speed	110kmph+(fully conditioned). Power	11.2hp. Torque	10.45Nm @7500rpm</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike7Desc = () => {
+const Bike7Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Engine249 cc	197.7 cc. Max Power	20.6 bhp @ 8000 rpm	20.7 bhp @ 8500 rpm. Peak Torque 20 Nm @ 6000 rpp 18.1 Nm @ 7000 rpm. Transmission	5-Speed	5-Speed</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike8Desc = () => {
+const Bike8Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Engine Type	Single cylinder, 4 stroke, CVTi, fuel injection. No. of Cylinders 1. Max Power	7.47 PS @ 7000 rpm. Max Torque	8.4 Nm @ 5500 rpm</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
 
-const bike9Desc = () => {
+const Bike9Desc = () => {
+    let history = useHistory();
     return ( 
         <div>
             <p>Engine Displ : 109.51 cc. Brakes Front :	Drum. Max Power : 7.76 PS @ 8000 rpm. Kerb Weight :	103 Kg</p> 
-            <button id = "button" onClick={message}>Add To Cart</button>   
+            <button id = "button" onClick={message}>Add To Cart</button>    &nbsp;&nbsp;&nbsp;  
+            <button id = "button" onClick={()=>{history.push('/Bike')}}>Go Back</button>
         </div>
      );
 }
