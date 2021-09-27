@@ -1,17 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import {Bike} from './body/Bike';
-import {Laptop} from './body/Laptop';
-import {Book} from './body/Book';
-import {Home} from './body/Home';
+//import { Chatbot } from './Chatbot';
+import React from "react";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import HomeComp from './Home/HomeComp';
+import BikeComp from './Bike/BikeComp';
+import BookComp from './Book/BookComp';
+import LapComp from './Laptop/LapComp';
 
 function App() {
-  return <div>
-    <Bike/>
-    <Laptop/>
-    <Book/>
-    <Home/>
-  </div>
+  return(
+    <>
+    <HomeComp/>
+    <BikeComp/>
+    <BookComp/>
+    <LapComp/>
+    </>
+  );
 }
 
 export default App;
