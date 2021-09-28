@@ -11,8 +11,8 @@ export class Chatbot extends React.Component{
     render(){
         
         return  (      
-             <div id="chatbot">
-             <ChatBot 
+             <div className="container">
+             <ChatBot bubbleStyle={{ fontSize: '12px'}}
              headerTitle="Chatbot"
              recognitionEnable={true}
              speechSynthesis={{ enable: true, lang: 'en' }}
@@ -58,24 +58,54 @@ export class Chatbot extends React.Component{
                     options: [
                       { value: 1, label: 'How to buy products?', trigger: '7' },
                       { value: 2, label: 'How to Register?', trigger: '8' },
+                      { value: 4, label: 'Will the product deliver to home If I make an order?', trigger: '10'},
+                      { value: 5, label: 'All of these items are serviced already?', trigger: '11'},
+                      { value: 6, label: 'How many days does it take to deliver to the exact location?', trigger: '12'},
+                      { value: 7, label: 'Can all sellers be trusted?', trigger: '13'},
+                      { value: 8, label: 'How can I trust the sellers?', trigger: '14'},
                       { value: 3, label: 'I dont want any help', trigger: '9'},
-                      
+
                     ],
                   },
                   {
                     id:'7',
-                    message:'You can buy products using ADD TO CART option',
+                    message:'You can buy products using ADD TO CART option.',
                     trigger: '6',
                   },
                   {
                     id : '8',
-                    message: 'You can register with the email id and password using register button which is present in the top right corner',
+                    message: 'You can register with the email id and password using register button which is present in the top right corner.',
                     trigger: '6',
                   },
                   {
                     id: '9',
                     message: 'Okay fine. Thank You!!!',
                     end: true,
+                  },
+                  {
+                    id:'10',
+                    message:'Definitely the orders will come to your exact location.',
+                    trigger: '6',
+                  },
+                  {
+                    id:'11',
+                    message:'Yes, All of these products are serviced already.',
+                    trigger: '6',
+                  },
+                  {
+                    id:'12',
+                    message:'It will take 5 to 6 days to deliver \n It may vary according to your location.',
+                    trigger: '6',
+                  },
+                  {
+                    id:'13',
+                    message:'Yes all the sellers are trusted. We only include the items after checking.',
+                    trigger: '6',
+                  },
+                  {
+                    id:'14',
+                    message:'You can trust the sellers because we have already verified them.',
+                    trigger: '6',
                   },
                   
                 ]}
